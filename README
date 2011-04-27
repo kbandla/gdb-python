@@ -1,0 +1,19 @@
+Scriping GDB using Python
+
+With GDB 7.2, you can script gdb using python in a stable way. 
+Here, you will find notes on gdb-python.
+
+Linux:
+I have tried this on Linux and it works fine. 
+
+OS X:
+It did compile on OS X, but I'm not sure how well vanilla gdb works on OS X.
+Apple has their own fork, but that does not have python support.
+http://www.opensource.apple.com/source/gdb/
+
+Download gdb-7.2 from here: http://ftp.gnu.org/gnu/gdb/
+
+Installing:
+You will need to configure gdb with python support:
+./configure --with-python=/usr/local
+make && make install
