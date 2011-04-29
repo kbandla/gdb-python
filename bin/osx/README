@@ -1,6 +1,6 @@
 This is gdb-7.2 for Mac OS X x86_64
 
-This is the GNU gdb compiled on Snow Leopard.
+This is the GNU gdb compiled on Snow Leopard. This supports Python.
 gdb's deps:
     /usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)
     /usr/lib/libncurses.5.4.dylib (compatibility version 5.4.0, current version 5.4.0)
